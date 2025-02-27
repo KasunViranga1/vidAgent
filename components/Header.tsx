@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   return (
-    <header className="stick top-0 z-50 left-0 right-0 px-4 md:px-0 bg-white/80 backdrop-blur-sm border-b border-gray-200 ">
+    <header className="stick top-0 z-50 left-0 right-0 px-4  bg-white/80 backdrop-blur-sm border-b border-gray-200 ">
       <div className="container mx-auto">
         <div className="flex items-center justify-between h-16">
           {/* left */}
