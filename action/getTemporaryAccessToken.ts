@@ -11,7 +11,7 @@ if (!apiKey) {
 
 const client = new SchematicClient({ apiKey });
 
-export async function getTemporaryAcessToken() {
+export async function getTemporaryAccessToken() {
   // get the current user from the clerk
   const user = await currentUser();
 
@@ -25,6 +25,7 @@ export async function getTemporaryAcessToken() {
       id: user.id,
     },
   });
+  console.log(response.data.token);
 
   return response.data.token;
 }
